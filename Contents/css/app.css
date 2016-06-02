@@ -2,12 +2,20 @@ body{
     background-color: red;  
 }
 
+#mainDiv{
+    width: 1024px;
+    margin: auto;
+}
+
 ul {
+    border-collapse: none;
+    border-top: 100px;
+    margin-top: 100px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #b3ffd9;
 }
 
 li {
@@ -16,7 +24,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,5 +32,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #00ff00;
+    color: #000;
+    text-decoration: none;
 }
