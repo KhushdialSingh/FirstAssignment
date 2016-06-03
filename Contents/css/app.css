@@ -1,6 +1,6 @@
 body{
     
-    background-image: url("background.jpg");
+    background-image: url('background.jpg');
     background-size: 100%  100%; 
     background-attachment: fixed;
 }
@@ -11,15 +11,12 @@ body{
 }
 
 ul {
-    border-collapse: none;
-    border-top: 100px;
-    margin-top: 100px;
+    height: 60px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*background-color: #b3ffd9;*/
-    background-color:rgba(230,230,230,0.5);
+    background-color:rgba(230,230,230,0.8);
 }
 
 li {
@@ -27,6 +24,8 @@ li {
 }
 
 li a {
+    height: 50px;
+    margin-top: 5px;
     display: block;
     font-size: 20px;
     color: #00f;
@@ -41,8 +40,60 @@ li a:hover {
     background-color:rgba(179,179,179,0.5);
     color: #000;
     text-decoration: none;
+    
+    border: thin;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .active{
+    pointer-events: none;
     cursor: default;
+    background-color:rgba(255,255,204,0.5);
+    color: #000;
+    border: thin;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
+
+
+#logo{
+    height: 60px;
+    width: auto;
+}
+
+#content{
+    margin-top: 30px;
+}
+
+#profile{
+    width: 30%;
+    float: left;
+}
+
+#title1{
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+#content1{
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+textarea{
+    resize: none;
+}
+
+
+
+
+
+
