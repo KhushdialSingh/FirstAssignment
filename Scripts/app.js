@@ -1,3 +1,12 @@
+/*
+File name: app.js
+Author name: Khushdial Singh
+website name: Khushdial Singh
+Description: this file includes all the javascript element that are used in the project
+
+*/
+
+//Declaration of an array that will contain all the text string used in the project
 var texts = [
     "Khushdial Singh",
     "I was born in India on March 22, 1996. At the age of 5 I moved to Italy were I lived for 14 years. I completed all my studies there and after getting my high school diploma in I.T., I decided to move to Canada to obtain a higher qualification in the technology field. I've been always interested in computers and software developing and I hope to get a good job in this field.",
@@ -10,7 +19,7 @@ var texts = [
     "This project is an application form which will allow people to join the Scarborough Tennis Club"
     ];
 
-
+//IIFE function that contains all the coding to write on the pages
 (function(){  
     
     var ids = [];

@@ -1,15 +1,25 @@
+/*
+File name: app.css
+Author name: Khushdial Singh
+website name: Khushdial Singh
+Description: this file includes all the styling element that are used in this project
+
+*/
+
+/* setting properties of the body */
 body{
-    
-    background-image: url('background.jpg');
+    background-image: url("background.jpg");
     background-size: 100%  100%; 
     background-attachment: fixed;
 }
 
+/* setting properties of the main div */
 #mainDiv{
     width: 1024px;
     margin: auto;
 }
 
+/* setting properties of the navbar */
 ul {
     height: 60px;
     list-style-type: none;
@@ -34,9 +44,7 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-    /*background-color: #00ff00;*/
     background-color:rgba(179,179,179,0.5);
     color: #000;
     text-decoration: none;
@@ -60,7 +68,7 @@ li a:hover {
     border-bottom-right-radius: 10px;
 }
 
-
+/* setting properties of the logo */
 #logo{
     height: 60px;
     width: auto;
@@ -70,17 +78,18 @@ li a:hover {
     margin-top: 30px;
 }
 
+/* setting properties of the profile picture */
 #profile{
     width: 30%;
     float: left;
 }
 
+/* setting properties of the content section in the pages */
 #title1{
     float: left;
     width: 70%;
     text-align: center;
 }
-
 #content1{
     width: 70%;
     float: left;
@@ -104,6 +113,8 @@ textarea{
     font-size: 20px;
 }
 
+
+/* setting properties of the project section pictures and links */
 #p1{
     width: 100%;
     height: auto;
@@ -124,4 +135,6 @@ textarea{
 }
 
 
-
+/*
+w3schools.com was used to make the navbar
+*/
